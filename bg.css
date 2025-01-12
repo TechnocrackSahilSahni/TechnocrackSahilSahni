@@ -1,0 +1,8 @@
+div{
+    height: 550px;
+    width: 400px;
+    margin: auto;
+    border: 2px solid red;
+    background-image: url("bgph.jpg");
+    background-size: cover;
+}

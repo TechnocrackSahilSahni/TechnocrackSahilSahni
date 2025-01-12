@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <style>
+        form{
+            color: blue;
+        }
+    </style>
+</head>
+<body style="background-color: brown">
+    <h3>Registration</h3>
+    <form action="/action">
+        <div>
+            <input type="text" placeholder="first name" name="fname">
+            <input type="text" placeholder="last name" name="lname">
+        </div>
+        <div>
+            <lable for="gender">please select gender : </lable>
+            <select name="gender" id="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to all forms of service ?
+            <input type="checkbox" id="tos_agree" name="tos_agree"/>
+            <lable for="tos_agree">Yes, I agree</lable>
+        </div>
+        <button>Registration</button>
+    </form>
+</body>
+</html>

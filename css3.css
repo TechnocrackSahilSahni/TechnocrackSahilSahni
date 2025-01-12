@@ -1,0 +1,36 @@
+/*id>class>element selector(like h1)*/
+h1{
+    color: brown;
+    background-color: yellow;
+}
+.myclass{
+    color: yellow;
+    background-color: aquamarine;
+}
+#geet{
+    color: chocolate;
+    background-color: burlywood;
+}
+/* id > class > element selector */
+/* div -- also element selector and p */
+/*p{
+    color: black;
+    background-color: antiquewhite;
+}
+div p{
+    color: brown;
+    background-color: yellow;
+}*/
+.para{
+    color: chocolate;
+    background-color: chartreuse;
+}
+div.dcg .greet{
+    color: brown;
+}
+.dcg p.greet{
+    color: blue;
+}
+.dcg .greet{
+    color: chartreuse;
+}

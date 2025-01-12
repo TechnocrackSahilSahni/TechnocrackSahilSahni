@@ -1,0 +1,60 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    text-align: center;
+    
+    /* animation-name: Sahil;
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-iteration-count: 5;
+    animation-direction:normal;
+    animation-timing-function: ease-in; */
+    animation: Sahil 4s ease-in 0 5 normal;
+    
+}
+@keyframes Sahil{
+    0%{
+        font-size: 10px;
+        color: black;
+        background-color: aqua;
+    }
+    25%{
+        font-size: 20px;
+        color:white;
+        background-color:green;
+    }
+    50%{
+        font-size: 30px;
+        color: red;
+        background-color: azure;
+    }
+    100%{
+        font-size: 40px;
+        color: blue;
+        background-color: yellow;
+    }
+}
+@keyframes Sahil2{
+    from{
+        width: 20px;
+        background-color: aqua;
+        color: blue;
+        font-size: 20px;
+    }
+    to{
+        width: 1500px;
+        background-color: brown;
+        font-size: 40px;
+        color: chartreuse;
+
+    }
+}
+@keyframes Sahil3{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size:40px;
+    }
+}

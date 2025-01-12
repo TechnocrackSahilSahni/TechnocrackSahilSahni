@@ -1,0 +1,15 @@
+
+.parkinsans-<uniquifier> {
+  font-family: "Parkinsans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+h1{
+    color: red;
+}
+p{
+    color: blue;
+    font-size: 40px;
+}

@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji-container {
+    text-align: center;
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gun-emoji {
+    font-size: 50px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.gun-emoji:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.caption {
+    font-size: 14px;
+    color: #666;
+}

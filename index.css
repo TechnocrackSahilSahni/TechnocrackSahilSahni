@@ -1,0 +1,104 @@
+/**{
+    Universal Selector
+    font-family: "Courier New";
+    background-color: blue;
+}*/
+/*element selector h1,h3*/
+p,h1{
+    color: #b92b27;
+}
+/*Id selector always unique*/
+#login{
+    color: yellowgreen;
+    background-color: aqua;
+}
+#signup{
+    color: blue;
+    background-color: blueviolet;
+}
+/*class selector
+.follow{
+    color: #b92b27;
+    background-color: aqua;
+}*/
+.upvote{
+    color: purple;
+    background-color: yellow;
+}
+/*.answer{
+    color: #b92b27;
+    background-color: aquamarine;
+}*/
+#myid p{
+    color: green;
+    background-color: bisque;
+}
+/*decendant selector accepted last inside the tag*/
+p a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a,nav ul li{
+    color: brown;
+}
+/*sibling combinator*/
+.upvote + button{
+    color: #b92b27;
+    background-color: chartreuse;
+}
+p+h3{
+    background-color: yellowgreen;
+    text-decoration: underline;
+}
+/*child combinator only near child element accept*/
+div > input{
+    color: brown;
+    background-color: burlywood;
+
+}
+/*attribute selector*/
+input[type="text"]{
+    color: blue;
+   
+}
+input[type="password"]{
+    color: blueviolet;
+}
+input[type]{
+    background-color: antiquewhite;
+}
+/* this is pseudo element
+this is Hover Properties */
+button:hover{
+    color: aliceblue;
+    background-color: black;
+}
+h3:hover{
+    text-decoration: none;
+}
+/* this is Active Properties */
+button:active{
+    color: black;
+    background-color: pink;
+}
+/* Checked */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+/* nth-of-type */
+div:nth-of-type(2n){
+    background-color: cornflowerblue;
+}
+/* first-line
+first-letter
+selection */
+h1::first-letter{
+    color: black;
+}
+h3::first-line{
+    color: red;
+}
+p::selection{
+    background-color: cyan;
+}

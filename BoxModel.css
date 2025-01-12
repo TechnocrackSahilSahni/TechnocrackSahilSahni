@@ -1,0 +1,35 @@
+/*Height and Width & ShortHand in One Line*/
+div{
+    height: 150px;
+    width: 500px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    border: 5px solid red;
+    border-left: 6px dashed yellow;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+/* Border Properties */
+h1{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: aquamarine;
+}
+/* Border Sides */
+button{
+    padding: 10px;
+    border-radius: 20px;
+    color: brown;
+    background-color: aqua;
+    border: 2px;
+    border-color: aquamarine;
+    padding-top: 10px;
+    margin-top: 25px;
+
+}
